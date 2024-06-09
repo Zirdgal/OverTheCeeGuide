@@ -1,0 +1,16 @@
+body, html {
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+img {
+    position: absolute;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+a {
+    color: lightblue;
+}
