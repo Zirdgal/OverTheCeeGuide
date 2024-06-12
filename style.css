@@ -48,7 +48,7 @@ a {
     box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
 }
 .button-container:hover .button-img {
-    content: url('/img/lightbulbGLOW.png');
+    content: url('./img/lightbulbGLOW.png');
 }
 
 
