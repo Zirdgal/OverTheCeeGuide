@@ -2,10 +2,10 @@ body, html {
     background-color: black;
     color: white;
     height: 100%;
-    font-size: 18px
+    font-size: 18px;
+    overflow: hidden;
 }
 img {
-    position: absolute;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -15,11 +15,63 @@ img {
 a {
     color: lightblue;
 }
+.buttons-container {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button-container {
+    margin-left: 2vw;
+    border: 2px white solid;
+    position: absolute;
+    width: 9vw;
+    height: 15vh;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-img {
+    height: 6.5vh;
+    width: 2vw;
+}
+
+.button-container:hover {
+    margin-top: -1vh;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+}
+.button-container:hover .button-img {
+    content: url('/img/lightbulbGLOW.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 li {
     margin-top: 1vh;
 }
-
 figure {
     float: right;
     width: 50vw;
@@ -32,3 +84,10 @@ figure img {
 #card-figure {
     width: 20vw;
 }
+
+
+
+
+
+
+
