@@ -3,7 +3,7 @@ body, html {
     color: white;
     height: 100%;
     font-size: 18px;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 img {
     -webkit-user-drag: none;
