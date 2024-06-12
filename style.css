@@ -2,6 +2,7 @@ body, html {
     background-color: black;
     color: white;
     height: 100%;
+    font-size: 18px
 }
 img {
     position: absolute;
@@ -13,4 +14,21 @@ img {
 }
 a {
     color: lightblue;
+}
+
+li {
+    margin-top: 1vh;
+}
+
+figure {
+    float: right;
+    width: 50vw;
+    height: 50vh;
+}
+figure img {
+    position: relative;
+    height: 100%;
+}
+#card-figure {
+    width: 20vw;
 }
