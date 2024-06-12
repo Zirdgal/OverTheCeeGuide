@@ -13,12 +13,24 @@
     <section>
         <h1>Over the Cee Wiki</h1>
         <p>The Official Wiki for Over The CEE</p>
-        <a href="pages/begin.html">Introduction</a>
+        <div class="buttons-container">
+            <button class="button-container" id="introduction-container">
+                <img class="button-img" src="img/lightbulb.png">
+                <p class="button-text">Introduction</p>
+            </button>
+        </div>
         <br>
         <br>
         <br>
         <br>
         <a href="https://zirdgal.github.io/OverTheCee/">Return to the game!</a>
     </section>
+    <script>
+        const container = document.getElementById("introduction-container");
+
+        container.onclick = function() {
+            location.href = 'pages/begin.html';
+        };
+    </script>
 </body>
 </html>
