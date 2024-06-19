@@ -25,7 +25,7 @@ a {
 .button-container {
     margin-left: 2vw;
     border: 2px white solid;
-    position: absolute;
+    position: relative;
     width: 9vw;
     height: 15vh;
     border-radius: 10px;
@@ -40,6 +40,10 @@ a {
 }
 .button-img {
     height: 6.5vh;
+    width: 3.5vw;
+}
+#introduction-button-img {
+    height: 6.5vh;
     width: 2vw;
 }
 
@@ -47,7 +51,7 @@ a {
     margin-top: -1vh;
     box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
 }
-.button-container:hover .button-img {
+.button-container:hover #introduction-button-img {
     content: url('./img/lightbulbGLOW.svg');
 }
 
