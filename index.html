@@ -16,8 +16,12 @@
         <p>The Official Wiki for Over The CEE</p>
         <div class="buttons-container">
             <button class="button-container" id="introduction-container">
-                <img class="button-img" src="img/lightbulb.svg">
+                <img class="button-img" id="introduction-button-img" src="img/lightbulb.svg">
                 <p class="button-text">Introduction</p>
+            </button>
+            <button class="button-container" id="keybinds-container">
+                <img class="button-img" src="img/keyboard.svg">
+                <p class="button-text">Keybinds</p>
             </button>
         </div>
         <br>
@@ -25,12 +29,6 @@
         <br>
         <br>
     </section>
-    <script>
-        const container = document.getElementById("introduction-container");
-
-        container.onclick = function() {
-            location.href = 'pages/begin.html';
-        };
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
