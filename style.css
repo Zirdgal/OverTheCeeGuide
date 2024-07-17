@@ -96,7 +96,11 @@ figure img {
 }
 
 
-
+.all-cards-card {
+    height: 40vh;
+    width: auto;
+    border-radius: 15px;
+}
 
 
 
